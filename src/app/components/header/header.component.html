@@ -1,4 +1,9 @@
 <header>
   <h1>{{ title }}</h1>
-  <app-button color="green" text="Add"></app-button>
+  <!-- Si é ottenuto un componente indipendente in cui si puo passare un colore, un titolo ed una funzione -->
+  <app-button
+    color="green"
+    text="Add"
+    (btnClick)="toggleAddTask()"
+  ></app-button>
 </header>
