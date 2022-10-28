@@ -1,0 +1,15 @@
+<div [ngStyle]="{ backgroundColor: bgColor, margin: 'auto', width: '100%' }">
+  <input
+    [ngStyle]="{
+      backgroundColor: bgColor,
+      color: textColor,
+      'font-size': '50px',
+      width: '100%'
+    }"
+    type="text"
+    name="topBar"
+    id=""
+    value="{{ title }}"
+    (change)="onChange()"
+  />
+</div>
