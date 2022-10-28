@@ -1,0 +1,8 @@
+<!-- ngStyle serve per modificare lo style del bottone usando le props -->
+<button
+  [ngStyle]="{ 'background-color': color }"
+  class="btn"
+  (click)="onClick()"
+>
+  {{ text }}
+</button>
