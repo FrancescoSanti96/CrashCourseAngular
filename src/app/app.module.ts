@@ -6,9 +6,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { TaskComponent } from './components/task/task.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, ButtonComponent, TopBarComponent, TaskComponent],
+  declarations: [AppComponent, HeaderComponent, ButtonComponent, TopBarComponent, TaskComponent, TaskItemComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],

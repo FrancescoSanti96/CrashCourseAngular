@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { Task } from '../../Task';
+import { TASKS } from '../../mock-task';
 
 @Component({
   selector: 'app-task',
   templateUrl: './task.component.html',
-  styleUrls: ['./task.component.css']
+  styleUrls: ['./task.component.css'],
 })
 export class TaskComponent implements OnInit {
+  tasks: Task[] = TASKS;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
